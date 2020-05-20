@@ -3,7 +3,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 host_address = "skabhi001@gmail.com"
 host_pass = "8002730184"
-guest_address = "skabhi003@gmail.com"
+guest_address = "skabhi001@gmail.com"
 subject = "Regarding Success of your model "
 content = '''Hello, 
 				Developer this is an email regarding to your last commit. Your last commit was taken into consideration and based on that the trained model has given best accuracy .

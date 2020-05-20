@@ -3,7 +3,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 host_address = "skabhi001@gmail.com"
 host_pass = "8002730184"
-guest_address = "skabhi003@gmail.com"
+guest_address = "skabhi001@gmail.com"
 subject = "Regarding failure of rebuild.py"
 content = '''Hello, 
 				Developer this is an email regarding to your last commit. It seems that your build.py is not working properly please check it once and recommit.
