@@ -1,4 +1,6 @@
-# Import essentials
+# Modules to be imported
+
+import numpy
 import keras
 from keras.datasets import mnist
 from keras.models import Sequential
@@ -6,15 +8,17 @@ from keras.utils.np_utils import to_categorical
 from keras.layers import Dense
 from keras.optimizers import Adam
 from keras.backend import clear_session
-import numpy
 
-# Load Model 
+# Load data
 (train_X , train_y), (test_X , test_y) = mnist.load_data("mymnist.data")
-# Reshape data and change type
+
+# Reshaping of data and changing its data type
+
 test_X = test_X.reshape(-1 , 28*28)
 train_X = train_X.reshape(-1 ,  28*28)
 test_X = test_X.astype("float32")
 train_X = train_X.astype("float32")
+
 # One hot encoding 
 test_y = to_categorical(test_y)
 train_y = to_categorical(train_y)

@@ -1,4 +1,6 @@
-# Import essentials
+# Modules to be imported
+
+import numpy
 import keras
 from keras.datasets import mnist
 from keras.models import Sequential
@@ -6,7 +8,7 @@ from keras.utils.np_utils import to_categorical
 from keras.layers import Dense
 from keras.optimizers import Adam
 from keras.backend import clear_session
-import numpy
+
 
 # Train model function
 
