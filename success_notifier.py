@@ -1,9 +1,9 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-host_address = "skabhi005@gmail.com"
-host_pass = "8002730184"
-guest_address = "skabhi001@gmail.com"
+host_address = "test@gmail.com@gmail.com"
+host_pass = "********"
+guest_address = "dev@gmail.com"
 subject = "Regarding Success of your model "
 content = '''Hello, 
 		   Developer,Your last commit trained model has given the best accuracy .
